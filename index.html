@@ -17,30 +17,31 @@
 			referrerpolicy="no-referrer"
 		/>
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/main.min.css">
 	</head>
 	<body>
 		<header class="header">
-			<div class="container header-container header-navigation">
+			<div class="container header__container navigation">
 				<a class="logo" href=""> <span class="logo-part-one">Web</span>Studio</a>
 				<nav>
-					<ul class="header-list header-navigation">
-						<li class="header-item"><a class="header-link link current" href="">Студія</a></li>
-						<li class="header-item"><a class="header-link link" href="./portfolio.html">Портфоліо</a></li>
-						<li class="header-item"><a class="header-link link" href="">Контакти</a></li>
+					<ul class="menu navigation">
+						<li class="menu__item"><a class="menu__link link current" href="">Студія</a></li>
+						<li class="menu__item"><a class="menu__link link" href="./portfolio.html">Портфоліо</a></li>
+						<li class="menu__item"><a class="menu__link link" href="">Контакти</a></li>
 					</ul>
 				</nav>
-				<ul class="header-list-contacts header-navigation">
-					<li class="header-mail">
-						<a class="header-link cont link" href="mailto:info@devstudio.com">
-							<svg class="contacts-item" width="16" height="12">
+				<ul class="contacts header__contacts navigation">
+					<li class="contacts__item">
+						<a class="menu__link cont link" href="mailto:info@devstudio.com">
+							<svg class="contacts__item" width="16" height="12">
 								<use href="./images/symbol-defs.svg#icon-envelope"></use>
 							</svg>
 							info@devstudio.com</a
 						></li
 					>
-					<li class="header-tel"
-						><a class="header-link cont link" href="tel:+380961111111">
-							<svg class="contacts-item" width="10" height="16">
+					<li class="contacts__item"
+						><a class="menu__link cont link" href="tel:+380961111111">
+							<svg class="contacts__item" width="10" height="16">
 								<use href="./images/symbol-defs.svg#icon-phone"></use>
 							</svg>
 							+38 096 111 11 11</a
@@ -51,50 +52,50 @@
 		</header>
 		<main>
 			<section class="hero">
-				<div class="container container-hero">
-					<h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-					<button data-modal-open class="hero-btn" type="button">Замовити послугу</button>
+				<div class="container container__hero">
+					<h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+					<button data-modal-open class="hero__btn" type="button">Замовити послугу</button>
 				</div>
 			</section>
 			<section class="about">
-				<div class="container container-about">
-					<ul class="list">
+				<div class="container container__about">
+					<ul class="picture list">
 						<!-- <h2>About</h2> -->
-						<li class="about-item">
-							<div class="about-item-bg">
-								<svg class="about-item-icon" width="70" height="70">
+						<li class="picture__item">
+							<div class="item-bg">
+								<svg class="picture__icon" width="70" height="70">
 									<use href="./images/symbol-defs.svg#icon-antenna"></use>
 								</svg>
 							</div>
-							<h3 class="about-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-							<p class="about-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+							<h3 class="about__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+							<p class="about__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
 						</li>
-						<li class="about-item">
-							<div class="about-item-bg">
+						<li class="picture__item">
+							<div class="item-bg">
 								<svg width="70" height="70">
 									<use href="./images/symbol-defs.svg#icon-clock"></use>
 								</svg>
 							</div>
-							<h3 class="about-title">ПУНКТУАЛЬНІСТЬ</h3>
-							<p class="about-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+							<h3 class="about__title">ПУНКТУАЛЬНІСТЬ</h3>
+							<p class="about__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
 						</li>
-						<li class="about-item">
-							<div class="about-item-bg">
+						<li class="picture__item">
+							<div class="item-bg">
 								<svg width="70" height="70">
 									<use href="./images/symbol-defs.svg#icon-diagram"></use>
 								</svg>
 							</div>
-							<h3 class="about-title">ПЛАНУВАННЯ</h3>
-							<p class="about-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+							<h3 class="about__title">ПЛАНУВАННЯ</h3>
+							<p class="about__text">Так само консультація з широким активом значною мірою зумовлює.</p>
 						</li>
-						<li class="about-item">
-							<div class="about-item-bg">
+						<li class="picture__item">
+							<div class="item-bg">
 								<svg width="70" height="70">
 									<use href="./images/symbol-defs.svg#icon-astronaut"></use>
 								</svg>
 							</div>
-							<h3 class="about-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-							<p class="about-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+							<h3 class="about__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+							<p class="about__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
 						</li>
 					</ul>
 				</div>
@@ -103,22 +104,22 @@
 				<div class="container">
 					<h2 class="title">Чим ми займаємося</h2>
 					<ul class="list">
-						<li class="about-item">
-							<div class="img-thumb">
+						<li class="picture__item">
+							<div class="img__thumb">
 								<img src="./images/employment-img1.jpg" alt="employment" width="370" height="294" />
-								<p class="img-text">Десктопні додатки</p>
+								<p class="img__text">Десктопні додатки</p>
 							</div>
 						</li>
-						<li class="about-item">
-							<div class="img-thumb">
+						<li class="picture__item">
+							<div class="img__thumb">
 								<img src="./images/employment-img2.jpg" alt="employment" width="370" height="294" />
-								<p class="img-text">Мобільні додатки</p>
+								<p class="img__text">Мобільні додатки</p>
 							</div>
 						</li>
-						<li class="about-item">
-							<div class="img-thumb">
+						<li class="picture__item">
+							<div class="img__thumb">
 								<img src="./images/employment-img3.jpg" alt="employment" width="370" height="294" />
-								<p class="img-text">Дизайнерські рішення</p>
+								<p class="img__text">Дизайнерські рішення</p>
 							</div>
 						</li>
 					</ul>
