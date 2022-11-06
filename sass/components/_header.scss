@@ -46,7 +46,7 @@ a {
         }
 }
 
-.menu__link {
+.menu__link, .contacts__link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -63,19 +63,19 @@ a {
 
 
 
-.menu__link.cont {
+.contacts__link {
     color: var(--contact-color);
     
 }
 
-.contacts-item {
+.contacts__item {
     margin-right: 10px;
 }
 
 .menu__link:hover,
-.contacts-item,
+.contacts__item,
 .menu__link:focus,
-.contacts-item {
+.contacts__item {
     fill: currentColor;
 }
 
